@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/booking"
+            android:checked="false"
+            android:icon="@drawable/ic_inbox_black"
+            android:title="@string/book_string" />
+
+        <item
+            android:id="@+id/history"
+            android:checked="false"
+            android:icon="@drawable/history"
+            android:title="@string/history_string" />
+
+        <item
+            android:id="@+id/keluar"
+            android:checked="false"
+            android:icon="@drawable/keluar"
+            android:title="@string/keluar_string" />
+    </group>
+</menu>
